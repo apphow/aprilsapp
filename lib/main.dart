@@ -17,7 +17,7 @@ class Home extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
         appBar: AppBar(
-          title: Text("April's Fabulous App"),
+          title: Text("Flutter Practice App"),
           centerTitle: true,
           backgroundColor: Colors.white30,
         ),
@@ -30,12 +30,6 @@ class Home extends StatelessWidget {
           backgroundColor: Colors.white30,
         ),
       );
-
-    //this does a hot reload.
-    // inside this widget we have a build function.
-    // It returns the Container widget. Inside
-    // this widget, we want to return a
-    // widget tree of our Home screen
   }
 }
 
